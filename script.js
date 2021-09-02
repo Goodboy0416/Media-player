@@ -27,10 +27,6 @@ const songs=[
     name:"lose-yourself",
     title:"RAP",
     artist:"EMINEM",
-},{
-    name:"Old-town-road",
-    title:"CHILL",
-    artist:"Lil Nas X",
 }
 ];
 
