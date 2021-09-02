@@ -15,7 +15,7 @@ const songs=[
         title:"CHILL",
         artist:"ARIJIT",
     },{
-        name:"PEACHES",
+        name:"Peaches",
         title:"CHILL",
         artist:"Justin Bieber",
     }
@@ -27,7 +27,11 @@ const songs=[
     name:"lose-yourself",
     title:"RAP",
     artist:"EMINEM",
-}
+},{
+        name:"old-town-road",
+        title:"CHILL",
+        artist:"Lil Nas X",
+    }
 ];
 
 let isPlaying=false;
