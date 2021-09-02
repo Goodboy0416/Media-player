@@ -45,9 +45,6 @@ play.addEventListener('click',()=>{
     }
 })
 
-
-
-
 // changing the music
 
 const loadSongs=(songs)=>{
