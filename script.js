@@ -12,20 +12,20 @@ const songs=[
         artist:"JUBIN NAUTIYAL",
     },{
         name:"Chhichhore",
-        title:"CHILL",
+        title:"Khairiyat",
         artist:"ARIJIT",
     },{
         name:"Peaches",
-        title:"CHILL",
+        title:"Peaches",
         artist:"Justin Bieber",
     }
     ,{
     name:"let-me-down",
-    title:"POP",
+    title:"Let Me Down",
     artist:"Alex Benjamin",
 },{
     name:"lose-yourself",
-    title:"RAP",
+    title:"Lose Yourself",
     artist:"EMINEM",
 },{
         name:"old-town-road",
@@ -71,7 +71,7 @@ const loadSongs=(songs)=>{
     img.src=`image/${songs.name}.jpg`;
 };
 
-songIndex=0;
+let songIndex=0;
 const nextSong=()=>{
     songIndex=(songIndex+1)%songs.length;
     loadSongs(songs[songIndex]);
