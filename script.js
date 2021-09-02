@@ -5,7 +5,21 @@ const title=document.getElementById('title');
 const artist=document.getElementById('artist');
 const prev=document.getElementById('prev');
 const next=document.getElementById('next'); 
-const songs=[{
+const songs=[
+    {
+        name:"Raataan-lambiyan",
+        title:"Shershaan",
+        artist:"JUBIN NAUTIYAL",
+    },{
+        name:"Chhichhore",
+        title:"CHILL",
+        artist:"ARIJIT",
+    },{
+        name:"PEACHES",
+        title:"CHILL",
+        artist:"Justin Bieber",
+    }
+    ,{
     name:"let-me-down",
     title:"POP",
     artist:"Alex Benjamin",
@@ -45,6 +59,9 @@ play.addEventListener('click',()=>{
     }
 })
 
+
+
+
 // changing the music
 
 const loadSongs=(songs)=>{
@@ -54,7 +71,7 @@ const loadSongs=(songs)=>{
     img.src=`image/${songs.name}.jpg`;
 };
 
-let songIndex=0;
+songIndex=0;
 const nextSong=()=>{
     songIndex=(songIndex+1)%songs.length;
     loadSongs(songs[songIndex]);
